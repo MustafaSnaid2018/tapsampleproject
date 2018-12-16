@@ -25,6 +25,8 @@ public class sampleClass {
         } else {
             System.out.println("Test Failed");
         }
+        
+        Thread.Sleep(10000);
         driver.close();
     }
 }
