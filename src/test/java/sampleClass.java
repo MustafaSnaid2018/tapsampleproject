@@ -2,6 +2,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+
 /**
  * Created by TAhmmed1 on 12/5/2018.
  */
@@ -26,7 +27,7 @@ public class sampleClass {
             System.out.println("Test Failed");
         }
         
-        Thread.Sleep(10000);
+          Thread.sleep(10000);
         driver.close();
     }
 }
