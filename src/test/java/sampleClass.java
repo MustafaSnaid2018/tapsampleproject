@@ -13,7 +13,9 @@ public class sampleClass {
 
     @Test
     public void sampleTest() throws Exception {
-        System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\src\\main\\resources\\chromedriver.exe");
+       // System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\src\\main\\resources\\chromedriver.exe");
+        //C:\Users\m.snaid\Desktop\Driver
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\m.snaid\\Desktop\\Driver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         String baseUrl = "http://google.com";
         String expectedTitle = "Google";
